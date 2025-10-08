@@ -54,3 +54,10 @@ const myFunction = function() {
 console.log(typeof myArray)
 console.log(typeof myObject)
 console.log(typeof myFunction)
+
+
+
+
+//++++++++++++++++++++++++++++++++++++ MEMORY  ++++++++++++++++++++++
+
+// Stack (Primitive) || Heap (Non Primitive)
