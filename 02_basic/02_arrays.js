@@ -17,7 +17,7 @@ const allHeros = [...marvel_heros, ...dc_heros];
 
 
 
-//multidimensional array here we are a array inside a array which already inside another aaray
+//multidimensional array here we have a array inside a array which already inside another aaray
 
 const another_array = [1, 2, 3, [8, 5, 2, 4], 5, 9, 7, [4, 5, [2, 6, 3]]];
 
