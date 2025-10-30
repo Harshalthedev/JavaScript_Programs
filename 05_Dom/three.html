@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <h1>Hello world</h1>
+</body>
+<script>
+    //it is used to create element
+    const div = document.createElement('div');
+    console.log(div)
+
+    div.className = 'main'
+    div.id = Math.round(Math.random()*10+1);
+
+    //setAttribute() it can be set by users like key and value
+    div.setAttribute("title", "generated title")          //it changes the value
+    div.style.backgroundColor="green";
+    div.style.padding="20px";
+    // div.innerHTML='chai aur code'             //here the innerHTML overrides the value dont actually change it
+    //another method than the above one the innerhtml
+    const addText = document.createTextNode("Chai aur code");
+    div.appendChild(addText);
+
+    document.body.appendChild(div)
+
+</script>
+</html>
